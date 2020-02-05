@@ -1,0 +1,49 @@
+body{
+    margin: 0px 0px;
+    background:  #fffce6;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
+
+header{
+    background: skyblue;
+    height: 120px;
+    font-family: 'Dancing Script', cursive;
+    position: sticky;
+    top: 0;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    padding: 35px;
+    color: wheat;
+
+    
+}
+div{
+    font-size: 20px;
+    padding: 10px 50px;
+    margin: 10px 0px;
+
+}
+p{
+    font-size: 20px;
+    padding:  10px 50px;
+}
+h3, h2 {
+    padding: 10px 50px;
+}
+.fab{
+    color: blue;
+    font-size: 50px;
+}
+#fa{
+    color: black;
+}
+#f{
+    color: rgb(65, 61, 61);
+}
+.fab{
+    margin: 20px;
+}
