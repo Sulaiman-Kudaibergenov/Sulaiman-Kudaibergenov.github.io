@@ -1,49 +1,111 @@
 body{
-    margin: 0px 0px;
-    background:  #fffce6;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Kalam', cursive;
-    font-size: 20px;
-}
-
-header{
-    background: skyblue;
-    height: 120px;
-    font-family: 'Dancing Script', cursive;
-    position: sticky;
-    top: 0;
-}
-h1{
     margin: 0px;
-    text-align: center;
-    padding: 35px;
-    color: wheat;
-
+    background-color: #fffce6;
+    font-size: 20px;
+    font-family: 'Kalam', cursive;
     
 }
-div{
-    font-size: 20px;
-    padding: 10px 50px;
-    margin: 10px 0px;
-
+header{
+    height: 250px;
+    width: 100%;
+    background: black;
+    align-items: stretch;
+    position: sticky;
+    top: 0;
+    font-family: 'Courgette', cursive;
 }
-p{
-    font-size: 20px;
-    padding:  10px 50px;
+video{
+    width: 100%;
+    height: 150px;
 }
-h3, h2 {
-    padding: 10px 50px;
+h1{
+    color: white;
+    text-align: center;   
 }
-.fab{
-    color: blue;
-    font-size: 50px;
+nav{
+    margin: 0px;
+    height: 80px;
+    background-color: rgb(233, 212, 154);
+    margin-top: -15px;
 }
-#fa{
-    color: black;
+nav ul{
+    list-style: none;
+    color: white;     
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
 }
-#f{
-    color: rgb(65, 61, 61);
+nav a{
+    text-decoration: none; 
+    padding: 10px;
+    padding-right: 20px;
+    color: white;
+    font-size: 30px;
 }
-.fab{
+nav a:hover{
+    color: violet;
+}
+section{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
     margin: 20px;
+ }
+#home{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 90vh;
+ }
+#home img{
+     height: 200px;
+     width: 200px;
+     display: inline;
+    
+ }
+ aside{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+#contact{
+    height: 200px;
+}
+section :hover{
+    box-shadow: 0 0 10px black;
+}
+#about{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio #services #contact{
+    transition: 1s;
+}
+#portfolio #services #contact :hover{
+    transform: scale(1.3, 1.3);
+}
+#contact{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+#link{
+    color: white;
+}
+#tel{
+    color: #229FDA;
+    background-color: white;
+}
+#git{
+    color: black;
 }
